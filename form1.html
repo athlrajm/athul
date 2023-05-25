@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <form action="form1.html">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="fname" placeholder="enter your name here" required><br><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" pattern="[a-z0-9._+-%]+@[a-z0-9.-]"><br><br>
+    <label for="age">Age</label>
+    <input type="Number" id="age"> <br><br> 
+    <label for="Gender">Gender</label>
+    <input type="radio" id="m" name="gender">
+    <label for="Male">Male</label>
+    <input type="radio" id="f" name="gender">
+    <label for="female">Female</label><br><br>  
+    <label for="course">course</label>
+    <select name="course" id="">
+        <option value="Php">PHP</option>
+        <option value="Mern">MERN</option>
+        <option value="react">React</option>
+    </select><br><br>
+    <label for="sub">Subjects</label>
+    <input type="checkbox" id="html"> 
+    <label for="html">HTML</label> 
+    <input type="checkbox" id="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" id="react">
+    <label for="react">React</label> <br><br>
+    <label for="address">Address</label>
+    <textarea name="address" id="add" cols="30" rows="10"></textarea><br><br>
+    <input type="submit" value="register">
+    </form>
+</body>
+</html>

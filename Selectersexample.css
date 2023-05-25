@@ -1,0 +1,17 @@
+#header1{
+    color: aquamarine;
+
+}
+#header2
+{
+    color: blanchedalmond;
+    background-color: darkgray;
+}
+.para1
+{
+    color: darkkhaki;
+    background-color: ivory;
+}
+h1,h2,p{
+    color: aquamarine;
+}
