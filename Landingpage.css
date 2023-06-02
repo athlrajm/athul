@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+.rows{
+display: flex;
+text-decoration: none;
+padding: 20px;
+background-color: rgb(61, 60, 63);
+}
+.rows a{
+    text-decoration: none;
+    padding: 10px;
+    color: beige;
+}
+.caption{
+ color: rgb(34, 33, 33);
+ text-align: center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: xx-large;
+font-weight: 500;
+}
+.Abc{
+    display: flex;
+    
+}
+.content{
+    padding: 20px;
+    text-align: ;
+    color: darkcyan;
+    font-size: larger;
+}
+.footer1{
+    background-color: rgb(39, 41, 41);
+    height: 200px;
+    color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+.Button2{
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
