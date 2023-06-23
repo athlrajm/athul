@@ -13,13 +13,16 @@
 }
 .blank2{
     grid-area: b2;
-    
+    padding: 20px;
     background-color: antiquewhite;
 }
 .image1{
     grid-area: p1;
     border: 2px solid white;
     background-attachment: scroll;
+    /* max-width: 100%; */
+    /* background-position: cover; */
+    
    
 }
 .content1{
